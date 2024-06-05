@@ -1,0 +1,182 @@
+/* Basic reset styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #ffe4c4;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #d35400;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container class */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    /* Change color to white for visibility */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #f0e68c;
+    /* Light yellow color on hover */
+    text-decoration: underline;
+}
+
+/* Card component styles */
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+    transition: transform 0.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #d35400;
+}
+
+/* Button styles */
+.btn-primary {
+    background: #ff4500;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #e03e00;
+    transform: scale(1.05);
+}
+
+.btn-secondary {
+    background: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background: #333;
+    transform: scale(1.05);
+}
+
+/* Testimonials styles */
+.testimonials {
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial {
+    margin-bottom: 1rem;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial p:last-child {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #ff6347;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+/* Additional styles */
+.menu {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #ff4500;
+    margin-bottom: 20px;
+}

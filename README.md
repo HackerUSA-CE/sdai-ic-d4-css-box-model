@@ -5,6 +5,17 @@ In this activity, you will learn how to use Chrome DevTools to examine the box m
 
 ---
 
+## Solution
+
+This lab was solved with four prompts:
+
+1.  'Generate base CSS styles for this HTML document which will beused for a food truck website. Follow web development best practices and provide styles for the body, headers, paragraphs, links, and basic layout elements. Also include starter styles for cards and buttons. Update the HTML appropriately.'
+2. 'Add some HTML and CSS that work together to display a a testimonials section all about how great our food is on the website. Use three testimonials. Craft them with fictitious names and review information.'
+3. 'Provide better looking visual styles to make it look more like a food truck website and some nice visual elements to the images using CSS. Provide the whole updated CSS doc.'
+4. 'The nav disappears against its background. Update the links in the top nav to be like the ones in the bottom nav. Explain your changes.'
+
+While there are many improvements that could be made, this is a great starting point, especially on mobile devices that have smaller screens.
+
 ## ToDo list ✅
 **Attention**: When you complete a task, put an `x` in the middle of the brackets to mark it off your ToDo list.
 
